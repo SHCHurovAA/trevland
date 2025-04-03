@@ -1,0 +1,35 @@
+.header {
+	padding: 50px 0;
+	z-index: 9;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.header__logo-wrapper {
+	.logo {
+		color: #fff;
+	}
+}
+
+.header__nav {}
+
+.header__list {
+	display: flex;
+	gap: 50px;
+
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.header__item {}
+
+.header__link {
+	color: #fff;
+}
+
+.header__btn-wrapper {}

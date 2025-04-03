@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Trevland</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo-wrapper">
+						<div class="logo">Trevland</div>
+					</div>
+
+					<nav class="header__nav">
+						<ul class="header__list">
+							<li class="header__item"><a href="#home" class="header__link">Home</a></li>
+							<li class="header__item"><a href="#travel-popular" class="header__link">Локации</a></li>
+							<li class="header__item"><a href="#blog" class="header__link">Блог</a></li>
+							<li class="header__item"><a href="#" class="header__link">О нас</a></li>
+							<li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+						</ul>
+					</nav>
+
+					<div class="header__btn-wrapper">
+						<a href="#" class="button button--xl">Забронировать!</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<!-- promo -->
+			<section class="promo" id="home">
+				<div class="container">
+					<div class="promo__wrapper">
+						<h1 class="title-1">Поездки на поезде туда, сюда и повсюду!</h1>
+
+						<p>
+							Мы все желаем начать наш год наилучшим образом и также, согласно распространенному убеждению, если у вас отличное начало года, то и продолжение будет
+							удачным.
+						</p>
+
+						<div class="promo__btn-wrapper">
+							<a href="#" class="button button--xxl">Узнайте больше</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- //promo -->
+
+			<!-- location -->
+			<section class="travel-popular" id="travel-popular">
+				<div class="container">
+					<div class="travel-popular__wrapper">
+						<h2 class="title-2">Популярное места</h2>
+
+						<p class="text">
+							Путешествия играли главную роль в жизни каждого из нас. Люди годами жили как скитальцы, первооткрывателями и странниками, переезжая с острова на остров,
+							накапливая бесценный опыт и наполняя жизнь незабываемыми воспоминаниями.
+						</p>
+
+						<div class="travel-popular__cards">
+							<!-- CARD N1 -->
+							<card class="card">
+								<picture>
+									<source srcset="./img/card/istanbul.webp 1x, ./img/card/istanbul@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/card/istanbul.jpg 1x, ./img/card/istanbul@2x.jpg 2x" type="image/jpeg" />
+									<img src="./img/card/istanbul.jpg" srcset="./img/card/istanbul@2x.jpg 2x" alt="Istanbul, Turkey" />
+								</picture>
+
+								<div class="card__content-wrapper">
+									<h3 class="title-3">Стамбул, Турция</h3>
+									<p>Стамбул — крупный город Турции, расположенный на стыке Европы.</p>
+								</div>
+							</card>
+
+							<!-- CARD N2 -->
+							<card class="card card--shadow">
+								<picture>
+									<source srcset="./img/card/kuala_lumpur.webp 1x, ./img/card/kuala_lumpur@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/card/kuala_lumpur.jpg 1x, ./img/card/kuala_lumpur@2x.jpg 2x" type="image/jpeg" />
+									<img src="./img/card/kuala_lumpur.jpg" srcset="./img/card/kuala_lumpur@2x.jpg 2x" alt="Kuala Lumpur, malaysia" />
+								</picture>
+
+								<div class="card__content-wrapper">
+									<h3 class="title-3">Куала-Лумпур, Малайзия</h3>
+									<p>Путь длиной в 272 шага приведет вас в это столетие.</p>
+								</div>
+							</card>
+
+							<!-- CARD N3 -->
+							<card class="card">
+								<picture>
+									<source srcset="./img/card/seoul.webp 1x, ./img/card/seoul@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/card/seoul.jpg 1x, ./img/card/seoul@2x.jpg 2x" type="image/jpeg" />
+									<img src="./img/card/seoul.jpg" srcset="./img/card/seoul@2x.jpg 2x" alt="Seoul, South Korea" />
+								</picture>
+
+								<div class="card__content-wrapper">
+									<h3 class="title-3">Сеул, Южная Корея</h3>
+									<p>Южная Корея — государство в Восточной Азии.</p>
+								</div>
+							</card>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- // location -->
+
+			<!-- special-offer -->
+			<section class="special-offer">
+				<div class="container">
+					<div class="special-offer__wrapper">
+						<h2 class="title-2">Специальные предложения</h2>
+						<p class="text">С наступлением Нового года приходит освежающее чувство жажды путешествий, желание в наших душах сбежать в теплые края.</p>
+					</div>
+				</div>
+
+				<div class="container-full">
+					<div class="special-offer__cards">
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/01.webp 1x, ./img/special/01@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/01.jpg 1x, ./img/special/01@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/01.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Статуя свободы</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Нью-Йорк</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.8</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									4 дня 5 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$450/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/02.webp 1x, ./img/special/02@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/02.jpg 1x, ./img/special/02@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/02.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Великая Китайская Стена</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Китай</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.9</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									7 дней 8 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$850/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/03.webp 1x, ./img/special/03@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/03.jpg 1x, ./img/special/03@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/03.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Дизин</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Иран</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.6</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									5 дней 6 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$550/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/04.webp 1x, ./img/special/04@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/04.jpg 1x, ./img/special/04@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/04.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Долина Саджек</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Долина Саджек</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.7</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									3 дня 4 ночи
+								</div>
+
+								<div class="small-card__price">
+									<span>$400/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/05.webp 1x, ./img/special/05@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/05.jpg 1x, ./img/special/05@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/05.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Замок Осака</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Япония</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.7</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									4 дня 5 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$700/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/01.webp 1x, ./img/special/01@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/01.jpg 1x, ./img/special/01@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/01.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Статуя свободы</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Нью-Йорк</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.8</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									4 дня 5 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$450/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/02.webp 1x, ./img/special/02@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/02.jpg 1x, ./img/special/02@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/02.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Великая Китайская Стена</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Китай</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.9</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									7 дней 8 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$850/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/03.webp 1x, ./img/special/03@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/03.jpg 1x, ./img/special/03@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/03.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Дизин</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Иран</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.6</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									5 дней 6 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$550/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/04.webp 1x, ./img/special/04@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/04.jpg 1x, ./img/special/04@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/04.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Долина Саджек</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Долина Саджек</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.7</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									3 дня 4 ночи
+								</div>
+
+								<div class="small-card__price">
+									<span>$400/</span>
+									человек
+								</div>
+							</div>
+						</div>
+
+						<div class="small-card">
+							<picture>
+								<source srcset="./img/special/05.webp 1x, ./img/special/05@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/special/05.jpg 1x, ./img/special/05@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/special/05.jpg" alt="Dizin" />
+							</picture>
+
+							<div class="small-card__content-wrapper">
+								<h3 class="title-3">Замок Осака</h3>
+
+								<div class="small-card__location">
+									<div class="small-card__place">
+										<svg class="icon icon--place_marker">
+											<use href="./img/svgsprite/sprite.symbol.svg#place_marker"></use>
+										</svg>
+										<span>Япония</span>
+									</div>
+									<div class="small-card__rating">
+										<svg class="icon icon--rating">
+											<use href="./img/svgsprite/sprite.symbol.svg#rating"></use>
+										</svg>
+										<span>4.7</span>
+									</div>
+								</div>
+
+								<div class="small-card__duration">
+									4 дня 5 ночей
+								</div>
+
+								<div class="small-card__price">
+									<span>$700/</span>
+									человек
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="special-offer__controls">
+						<!-- prev button -->
+						<button class="prev" id="ts-prev">
+							<svg class="icon icon--left-arrow">
+								<use href="./img/svgsprite/sprite.symbol.svg#left-arrow"></use>
+							</svg>
+						</button>
+
+						<!-- nav -->
+						<div class="special-offer__nav">
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+							<button class="special-offer__btn"></button>
+						</div>
+
+						<!--  next button -->
+						<button class="next" id="ts-next">
+							<svg class="icon icon--right-arrow">
+								<use href="./img/svgsprite/sprite.symbol.svg#right-arrow"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<!-- // special-offer -->
+
+			<!-- blog-news -->
+			<section class="blog-news" id="blog">
+				<div class="container">
+					<div class="blog-news__wrapper">
+						<h2 class="title-2">Блоги & Новости</h2>
+						<p class="text">
+							Добро пожаловать в Community Conversations — новую серию интервью с участием бесстрашных путешественников, творческих людей и активистов нашего
+							сообщества.
+						</p>
+
+						<div class="blog-news__posts">
+							<!-- post-card -->
+							<div class="post-card post-card--xxl blog-news__post1">
+								<img src="./img/blog-news/canada-ontario-niagara-falls-2 1.jpg" alt="Banff National Park" />
+
+								<div class="post-card__desc-wrapper">
+									<h4 class="title-4">Национальный парк Банф</h4>
+
+									<p class="post-card__desc">
+										Национальный парк Банф находится в самом сердце величественных Скалистых гор в провинции Альберта и демонстрирует некоторые из самых красивых
+										пейзажей Канады. Бирюзовые озера, заснеженные вершины и ледники — все это легкодоступно
+									</p>
+
+									<p class="post-card__user">@thomasalva_adison</p>
+								</div>
+							</div>
+
+							<!-- post-card -->
+							<div class="post-card blog-news__post2">
+								<img src="./img/blog-news/hiroshima-japan-1500-1100x825 1.jpg" alt="hiroshima-japan" />
+
+								<div class="post-card__desc-wrapper">
+									<h4 class="title-4">Мир Хиросимы!</h4>
+
+									<p class="post-card__desc">Официальное открытие для публики состоялось в августе того же года.</p>
+
+									<p class="post-card__user">@shova_bd88</p>
+								</div>
+							</div>
+
+							<!-- post-card -->
+							<div class="post-card blog-news__post3">
+								<img src="./img/blog-news/india-top-attractions-varanasi 1.jpg" alt="The faithful prayers" />
+
+								<div class="post-card__desc-wrapper">
+									<h4 class="title-4">Истовые молитвы!</h4>
+
+									<p class="post-card__desc">Крупный центр паломничества индуистов, священный город.</p>
+
+									<p class="post-card__user">@adem/smith</p>
+								</div>
+							</div>
+
+							<!-- post-card -->
+							<div class="post-card blog-news__post4">
+								<img src="./img/blog-news/Naltar-lake-pakistan 1.jpg" alt="Colourful waters" />
+
+								<div class="post-card__desc-wrapper">
+									<h4 class="title-4">Разноцветные воды!</h4>
+
+									<p class="post-card__desc">Водные и энергетические циклы, обусловленные лесным хозяйством, находятся в плохом состоянии.</p>
+
+									<p class="post-card__user">@jhon7leew</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- // blog-news -->
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<!-- 1 columns -->
+					<div class="footer__about">
+						<div class="footer__logo-wrapper">
+							<div class="logo">
+								Trevland
+							</div>
+						</div>
+
+						<p>Свяжитесь с нами</p>
+
+						<p><a href="mailto:test@test.com" class="footer__link">@shovasatkhira88.com</a></p>
+
+						<div class="footer__social-list">
+							<a href="#">
+								<img src="./img/svg-multicolor/fb-soc_icon.svg" alt="Facebook" />
+							</a>
+							<a href="#">
+								<img src="./img/svg-multicolor/instagram-soc_icon.svg" alt="Instagram" />
+							</a>
+							<a href="#">
+								<img src="./img/svg-multicolor/twitter-soc_icon.svg" alt="Twitter" />
+							</a>
+							<a href="#">
+								<img src="./img/svg-multicolor/google-soc_icon.svg" alt="Google" />
+							</a>
+						</div>
+					</div>
+
+					<!-- 2 columns -->
+					<ul class="footer__link-list">
+						<li class="footer__item"><a href="" class="footer__link">Услуги</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Юридическая информация</a></li>
+						<li class="footer__item"><a href="" class="footer__link">О компании</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Условия и положения</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Наша история</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Политика конфиденциальности</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Преимущества</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Условия использования</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Брендинг</a></li>
+					</ul>
+
+					<!-- 3 columns -->
+					<div class="footer__form-group">
+						<h4 class="title-4 footer__title">
+							ПОДПИСАТЬСЯ НА НАШУ РАССЫЛКУ
+						</h4>
+
+						<form class="footer__form">
+							<input type="text" class="input" placeholder="Email" />
+							<input type="submit" class="button" value="Подписаться" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

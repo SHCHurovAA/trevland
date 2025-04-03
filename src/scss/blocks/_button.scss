@@ -1,0 +1,36 @@
+.button,
+a.button {
+    display: inline-block;
+
+    padding: 10px 32px;
+
+    border-radius: 5px;
+    line-height: 44px;
+
+    background-color: #c9453b !important;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+        background-color: #ca1f13 !important;
+    }
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+
+    &--xl {
+        padding: 14px 35px;
+    }
+
+    &--xxl {
+        padding: 18px 46px;
+    }
+}

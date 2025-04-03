@@ -1,0 +1,19 @@
+.main {
+
+
+    & section:first-child {
+        padding: 0;
+    }
+
+    & section:nth-child(2) {
+        margin-top: 70px;
+    }
+
+    section {
+        padding: 70px 0;
+    }
+
+    & section:last-child {
+        margin-bottom: 70px;
+    }
+}
